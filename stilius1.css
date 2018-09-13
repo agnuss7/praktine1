@@ -1,9 +1,23 @@
 body {
-    background-color: lightblue;
+    background-color: orange;
+}
+div {
+	position: fixed;
+	text-align:center;
+	background-color: red;
+    top: 0;
+    right: 0;
+    width: 300px;
 }
 
 ul {
 	color: white;
+	font-family: arial;
+	
+}
+
+ol {
+	color: green;
 }
 
 h1 {
