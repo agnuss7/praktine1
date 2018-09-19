@@ -1,13 +1,24 @@
 body {
-    background-color: orange;
+	background-image:url("bfcf1997f961d815ec38b6342db1662d.jpg");
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+	width: 50%;
 }
+
 div {
 	position: fixed;
 	text-align:center;
-	background-color: red;
-    top: 0;
-    right: 0;
-    width: 300px;
+	background-color: pink;
+    	top: 0;
+    	right: 0;
+    	width: 20%;
+	height: 100%;
+	border-style: outset;
+}
+a {
+	font-family:"Courier New";
+	font-size:150%;
 }
 
 ul {
@@ -16,11 +27,19 @@ ul {
 	
 }
 
+img {
+	width: 25%;
+}
+
 ol {
 	color: green;
 }
 
 h1 {
-    color: red;
-    margin-left: 20px;
+    	color: red;
+    	margin-left: 20px;
+}
+h3 {
+	font-family:"Courier New";
+	font-size:200%;
 }
