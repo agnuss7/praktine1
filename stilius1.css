@@ -1,12 +1,22 @@
 body {
+
 	background-image:url("bfcf1997f961d815ec38b6342db1662d.jpg");
 	background-position: center; 
-  	background-repeat: no-repeat; 
   	background-size: cover; 
-	width: 50%;
+}
+.background{
+	background: rgba(300,300,300,0.65);
+	position:absolute;
+	width:100%;
+	height:100%;
 }
 
-div {
+.visas {
+	position:absolute;
+	margin-left: 3%;
+	width:75%
+}
+.mazas {
 	position: fixed;
 	text-align:center;
 	background-color: pink;
@@ -16,30 +26,38 @@ div {
 	height: 100%;
 	border-style: outset;
 }
+
 a {
 	font-family:"Courier New";
 	font-size:150%;
 }
 
 ul {
-	color: white;
+	color: red;
 	font-family: arial;
-	
+	font-size: 120%;
 }
 
 img {
-	width: 25%;
+	width: 17%;
 }
 
 ol {
-	color: green;
+	color: maroon;
+	font-family: arial;
+	font-size: 120%;
+}
+p {
+	font-size:120%;
 }
 
 h1 {
-    	color: red;
-    	margin-left: 20px;
+    	color: peru;
 }
 h3 {
 	font-family:"Courier New";
 	font-size:200%;
+}
+table, th, td {
+border: 1px solid black;
 }
