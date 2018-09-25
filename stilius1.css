@@ -3,8 +3,9 @@ body {
 	background-image:url("bfcf1997f961d815ec38b6342db1662d.jpg");
 	background-position: center; 
   	background-size: cover; 
+	
 }
-.background{
+.background {
 	background: rgba(300,300,300,0.65);
 	position:absolute;
 	width:100%;
@@ -59,5 +60,9 @@ h3 {
 	font-size:200%;
 }
 table, th, td {
-border: 1px solid black;
+	border: 1px solid black;
+}
+
+textarea {
+	
 }
