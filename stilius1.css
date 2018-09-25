@@ -26,6 +26,14 @@ body {
     	width: 20%;
 	height: 100%;
 	border-style: outset;
+
+}
+
+
+@media only screen and (orientation:portrait) {
+  .mazas {
+    display: none;
+  }
 }
 
 a {
@@ -38,7 +46,11 @@ ul {
 	font-family: arial;
 	font-size: 120%;
 }
-
+@media only screen and (max-width: 500px) {
+  img {
+    display: none;
+  }
+}
 img {
 	width: 17%;
 }
