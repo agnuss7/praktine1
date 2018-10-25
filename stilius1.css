@@ -30,11 +30,12 @@ body {
 }
 
 
-@media only screen and (orientation:portrait) {
+@media only screen and (orientation:portrait){
   .mazas {
     display: none;
   }
 }
+
 
 a {
 	font-family:"Courier New";
@@ -46,11 +47,16 @@ ul {
 	font-family: arial;
 	font-size: 120%;
 }
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 700px) {
   img {
     display: none;
   }
+  .mazas {
+    display: none;
+  }
 }
+
 img {
 	width: 17%;
 }
