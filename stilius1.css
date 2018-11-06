@@ -1,78 +1,22 @@
-body {
-
+div {
+background-color:darkcyan;
+position:fixed;
+left:30%;
+top:30%;
+padding:30px;
 	
 	
 }
 
-.visas {
-	position:absolute;
-	margin-left: 3%;
-	width:75%
-}
-.mazas {
-	position: fixed;
-	text-align:center;
-	background-color: pink;
-    	top: 0;
-    	right: 0;
-    	width: 20%;
-	height: 100%;
-	border-style: outset;
-
+button {
+width:50px;
+height:55px;
+background-color:aquamarine;
 }
 
-
-@media only screen and (orientation:portrait){
-  .mazas {
-    display: none;
-  }
-}
-
-
-a {
-	font-family:"Courier New";
-	font-size:150%;
-}
-
-ul {
-	color: red;
-	font-family: arial;
-	font-size: 120%;
-}
-
-@media only screen and (max-width: 700px) {
-  img {
-    display: none;
-  }
-  .mazas {
-    display: none;
-  }
-}
-
-img {
-	width: 17%;
-}
-
-ol {
-	color: maroon;
-	font-family: arial;
-	font-size: 120%;
-}
-p {
-	font-size:120%;
-}
-
-h1 {
-    	color: peru;
-}
-h3 {
-	font-family:"Courier New";
-	font-size:200%;
-}
-table, th, td {
-	border: 1px solid black;
-}
-
-textarea {
-	
+p{
+outline-style:inset;
+outline-color:lightblue;
+background-color:powderblue;
+border:5px;
 }
