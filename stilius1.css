@@ -1,11 +1,9 @@
-div {
+#skaic {
 background-color:darkcyan;
 position:fixed;
 left:30%;
 top:30%;
-padding:30px;
-	
-	
+padding:90px;		
 }
 
 button {
@@ -14,9 +12,18 @@ height:55px;
 background-color:aquamarine;
 }
 
-p{
+.dbl{
+width:104px;
+}
+
+#lcd{
 outline-style:inset;
 outline-color:lightblue;
 background-color:powderblue;
 border:5px;
+width:206px;
+height:20px;
+white-space:nowrap;
+overflow:hidden;
+text-align:right;
 }

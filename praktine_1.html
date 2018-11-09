@@ -8,25 +8,31 @@
 	</head>
 
 	<body>
-<div>
-		<p id="demo">hello</p>
-		<button type="button">7</button>
-		<button type="button">8</button>
-		<button type="button">9</button>
-		<button type="button">/</button></br>
-		<button type="button">4</button>
-		<button type="button" onclick="back()">5</button>
-		<button type="button">6</button>
-		<button type="button">*</button></br>
-		<button type="button" onclick="myFunction()">1</button>
-		<button type="button">2</button>
-		<button type="button">3</button>
-		<button type="button">-</button></br>
-		<button type="button">0</button>
-		<button type="button">x^n</button>
-		<button type="button">&#8730</button>
-		<button type="button" onclick="plus()">+</button></br>
-		<button type="button">n&#8730</button>
+<p id="g"></p>
+<div id="skaic">
+		<div id="lcd"></div></br>
+		<button type="button" class="dbl" onclick="del()">C</button>
+		<button type="button" class="dbl" onclick="equal()">=</button></br>
+		<button type="button" onclick="writer('7')">7</button>
+		<button type="button" onclick="writer('8')">8</button>
+		<button type="button" onclick="writer('9')">9</button>
+		<button type="button" onclick="writer('/')">/</button></br>
+		<button type="button" onclick="writer('4')">4</button>
+		<button type="button" onclick="writer('5')">5</button>
+		<button type="button" onclick="writer('6')">6</button>
+		<button type="button" onclick="writer('*')">*</button></br>
+		<button type="button" onclick="writer('1')">1</button>
+		<button type="button" onclick="writer('2')">2</button>
+		<button type="button" onclick="writer('3')">3</button>
+		<button type="button" onclick="writer('-')">-</button></br>
+		<button type="button" onclick="writer('0')">0</button>
+		<button type="button" onclick="writer('^')">x^n</button>
+		<button type="button" onclick="writer('&#8730','root')">&#8730;</button>
+		<button type="button" onclick="writer('+')">+</button></br>
+		<button type="button" onclick="writer('&#8730','nroot')">n&#8730;</button>
+		<button type="button" onclick="writer('!')">n!</button>
+		<button type="button" onclick="writer('%')">Mod</button>
+		<button type="button" onclick="back()"><--</button>
 </div>
 	</body>
 </html>
